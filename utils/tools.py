@@ -314,3 +314,4 @@ def text_prompt(annotations, args):
     max_idx = max_idx[-1]
     max_idx += sum(np.array(filter_id) <= int(max_idx))
     return annotaions[max_idx]["segmentation"], max_idx
+
